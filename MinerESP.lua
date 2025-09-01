@@ -1,5 +1,5 @@
--- Gui to Lua (UMT GUI com ESP dos Mineiros)
--- Version: 3.2
+-- Gui to Lua
+-- Version: 3.5
 
 -- Instances:
 
@@ -451,4 +451,5 @@ local function MinerESP()
 end
 
 -- Chama o ESP miner script no botão!
+
 coroutine.wrap(MinerESP)()
